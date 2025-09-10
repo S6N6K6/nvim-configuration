@@ -19,5 +19,8 @@ return {
     -- Go forward/backward with square brackets
     require('mini.bracketed').setup()
 
+    -- Tabline
+    require('mini.tabline').setup()
+
   end
 }

@@ -32,6 +32,7 @@ require("lazy").setup("plugins")
 -- Set the status line to look cool enough
 require("utils.statusline")
 
+vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
 -- Configure the treesitter
 local config = require("nvim-treesitter.configs")
 config.setup({
